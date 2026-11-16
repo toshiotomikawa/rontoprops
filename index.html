@@ -21,7 +21,7 @@
 <meta name="twitter:image:alt" content="Logo Ronto Props">
 <link rel="icon" type="image/webp" href="assets/images/2024-11-10_23-59-08_UTC_profile_pic.webp">
 <link rel="preload" href="assets/fonts/montserrat-900.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css?v=9">
+<link rel="stylesheet" href="css/style.css?v=10">
 </head>
 <body>
 <a class="skip-link" href="#main">PULAR PARA O CONTEÚDO</a>
@@ -72,11 +72,11 @@
   <section id="arquivo" class="gallery-section">
     <div class="gallery-header">
       <h2 class="section-title">ARQUIVO</h2>
-      <div class="filter-tabs" role="tablist" aria-label="Filtrar arquivo">
-        <button class="filter-btn active" data-filter="finished" type="button">FINALIZADAS</button>
-        <button class="filter-btn" data-filter="wip" type="button">BASTIDORES</button>
-        <button class="filter-btn" data-filter="event" type="button">EVENTOS</button>
-        <button class="filter-btn" data-filter="all" type="button">TODAS</button>
+      <div class="filter-tabs" role="group" aria-label="Filtrar arquivo">
+        <button class="filter-btn active" data-filter="finished" type="button" aria-pressed="true">FINALIZADAS</button>
+        <button class="filter-btn" data-filter="wip" type="button" aria-pressed="false">BASTIDORES</button>
+        <button class="filter-btn" data-filter="event" type="button" aria-pressed="false">EVENTOS</button>
+        <button class="filter-btn" data-filter="all" type="button" aria-pressed="false">TODAS</button>
       </div>
     </div>
 
@@ -135,6 +135,6 @@
 
 <script src="js/gallery-data.js?v=4"></script>
 <script src="js/image-manifest.js?v=1"></script>
-<script src="js/main.js?v=7"></script>
+<script src="js/main.js?v=8"></script>
 </body>
 </html>

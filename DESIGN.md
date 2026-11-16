@@ -7,7 +7,7 @@ colors:
   ink: "#241408"
   cream: "#f2e2c4"
   tan: "#e8cfa0"
-  muted: "#a08e78"
+  muted: "#c4b096"
   brown-deep: "#3a2418"
   brown-mid: "#5c3a24"
   brown-hero: "#1e1109"
