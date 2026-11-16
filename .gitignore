@@ -1,0 +1,33 @@
+# Client photos: copied from the private hub at build time
+assets/images/
+assets/images-original/
+
+# Agent files
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.agents/
+.claude/
+.codex/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.next/
+out/
+.vercel/
+
+# Generated responsive image variants (rebuilt on every Vercel deploy)
+assets/generated/
+js/image-manifest.js
+
+# Env
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+

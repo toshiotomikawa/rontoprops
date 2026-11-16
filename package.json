@@ -1,0 +1,16 @@
+{
+  "name": "rontoprops",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "photos": "node tools/fetch-private.mjs",
+    "images": "node tools/build-images.mjs",
+    "build": "npm run photos && npm run images"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  }
+}
