@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "photos": "node tools/fetch-private.mjs",
+    "photos": "node tools/fetch-assets.mjs",
     "images": "node tools/build-images.mjs",
     "build": "npm run photos && npm run images"
   },

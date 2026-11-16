@@ -6,7 +6,7 @@ Plain HTML, CSS and JavaScript. The only build step makes responsive WebP sizes 
 
 ## Photos
 
-The gallery photos and logo belong to Ronto Props and are not in this repository. `npm run build` copies them in from a private repository: locally from `../PrivateHub` (or `PRIVATE_HUB_DIR`), and on Vercel by cloning it with a read-only `HUB_TOKEN`.
+The gallery photos and logo belong to Ronto Props and are not in this repository. `npm run build` copies them in from a private repository: locally from `../AssetHub` (or `ASSET_HUB_DIR`), and on Vercel by cloning it with a read-only `HUB_TOKEN`.
 
 ## Run locally
 
